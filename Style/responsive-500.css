@@ -1,0 +1,42 @@
+@media (max-width : 500px){
+
+.head-title h2{
+     font-size: 2rem;
+}
+.head-title p{
+     margin: 2rem;
+     justify-content: center;
+     
+}
+.head-section{
+    height: auto;
+}  
+.features-img img{
+    width: 20rem;
+}
+.main{
+    height: auto;
+}
+.main-img img{
+    width: 20rem;
+}
+.main-title p{
+    margin: 1rem;
+    text-align: center;
+    
+    
+}
+.flex-card{
+    display: flex;
+    font-size: .6rem;
+    text-align: start;
+    flex-direction: row;
+    line-height: 1rem;
+    
+    }
+
+
+
+
+
+}
