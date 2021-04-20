@@ -16,7 +16,9 @@
     <link rel="stylesheet" href="/Style/Animations.css">
   </head>
 <body>
-  <!-- nav-bar -->
+
+  <!--------------------- Nav-bar ------------------------>
+
   <div class="nav-bar">
     <div class="container-nav">
       <h1 class="logo"><span>C</span>ode <span>S</span>chool</h1>
@@ -29,7 +31,9 @@
       </nav>
     </div>
   </div>
+
   <!----------------- showcase ----------------->
+
   <section class="showcase">
     <div class="container grid">
       <div class="showcase-text title-grid">
@@ -43,17 +47,26 @@
       </div>
       
       <div class="showcase-card card-grid">
-       <h1>Apply Now</h1>
-        <input class="input" type="text" name="name" placeholder="Name" required>
-        <input class="input" type="text" name="company" placeholder="Company" required>
-        <input class="input" type="email" name="email" placeholder="Email" required>
-        <button class="button-card" name="submit">Send</button>
-       </div>
+        <h1>Apply Now</h1>
+      <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+        <p class="hidden">
+          <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+        </p>
+           <div><input class="input" type="text" name="name" placeholder="Name" required></div>
+           <div><input class="input" type="text" name="company" placeholder="Company" required></div>
+           <div><input class="input" type="text" name="email" placeholder="Email" required></div>
+           
+           <input class="button-card" type="submit" value="Send"></input>
+          
+      </form>
+    </div>
   </div>
      
   </section>
 
   <!------------------------- Stats ------------------------->
+
   <section class="stats">
     <div class="container">
      <div class="stats-title">
@@ -80,9 +93,11 @@
           </div>
    </div>
   </section>
-  <!--------------------- CLI --------------------->
-  <section class="cli">
-    <div class="container grid-cli">
+
+  <!--------------------- Tip --------------------->
+
+  <section class="tip">
+    <div class="container grid-tip">
        <img class="img-learning" src="images/learning.png" alt="">
       <div class="card">
         <h3>Tell us why you want to learn to code</h3>
@@ -92,7 +107,9 @@
       </div>
     </div>
   </section>
+
   <!--------------------- Advertisement ------------------------>
+
   <section class="adver bg-primary my-1 py-1">
     <div class="container grid-adver">
       <div class="adver-text text-center">
@@ -104,7 +121,9 @@
       <img src="images/codecore-logo.png">
      </div>
   </section>
-  <!-- language -->
+
+  <!--------------------- Language ------------------------>
+
   <section class="language">
     <h4 class="lg">Languages</h4>
    <div class="container flex">
@@ -145,7 +164,9 @@
    </div>
 
   </section>
-  <!-- footer -->
+
+  <!--------------------- Footer ------------------------>
+  
   <footer class="footer bg-dark py-1">
     <div class="container grid-footer">
       <div class="footer-title md">

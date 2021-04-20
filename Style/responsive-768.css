@@ -2,7 +2,7 @@
     .grid,
     .grid-adver,
     .icons-grid-3,
-    .cli .grid-cli,
+    .tip .grid-tip,
     .card-grid-icons,
     .grid-main,
     .head-grid,
@@ -21,7 +21,7 @@
 .main-img{
     justify-self: center;
 }
-.cli .grid-cli > *:first-child{
+.tip .grid-tip > *:first-child{
     grid-column: 1;
     grid-row: 1;
     
@@ -50,22 +50,13 @@
  }
  .footer .footer-title{
      grid-row: 2;
-    grid-column: 1/ 4;
+     grid-column: 1/ 4;
  }
  .footer .grid-footer .social{
      grid-row: 3 / span 3;
      grid-column: 1/ span 3;
      
  }
-
-/* .footer .social a{
-    color: var(--font-color-white);
-    margin: 0 .1rem;
-    font-size: 2rem;   
-} */
-
-
-
 
 
 }
