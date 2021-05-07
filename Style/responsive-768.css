@@ -36,27 +36,12 @@
 .head-title{
     text-align: center;
 }
-.grid-footer{
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr) 20px;
-    
-    
- }
+.grid-footer .social{
+   margin: 0 auto;
+  }
 
- .footer .footer-nav{
-    
-     grid-row: 1;
-     grid-column: 2/3;
- }
- .footer .footer-title{
-     grid-row: 2;
-     grid-column: 1/ 4;
- }
- .footer .grid-footer .social{
-     grid-row: 3 / span 3;
-     grid-column: 1/ span 3;
-     
- }
+
+
 
 
 }

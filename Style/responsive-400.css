@@ -1,0 +1,58 @@
+@media (max-width: 400px){
+
+    /* <!-------------------- showcase ---------------------> */
+    .showcase h2{
+        font-size: 2rem;
+        font-family: laila;
+        margin: 0;
+    }
+    .title-grid a{
+        font-size: .8rem;
+        padding: .5rem .5rem;
+        }
+    .img-learning{
+        width: 20rem;
+        height: 10rem;
+    
+    }
+    .tip .grid-tip .card{
+        font-size: .8rem;
+    }
+    /* --------------------- Advertisement ------------------------ */
+    .adver-text h2{
+        font-size: 2rem;
+        
+    }
+    .adver-text p{
+        line-height: 1.5rem;
+        font-size: 1rem;
+        
+    }
+    .adver a{
+        padding: .5rem .5rem;
+        font-weight: 500;
+        font-size: .8rem;
+    }
+ /* ------------------------ Footer ----------------------------- */
+    .footer-title h1{
+        font-size: 2.2rem;
+    }
+    .footer-title p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+     .footer  a {
+         font-size: .5rem;
+     }
+     .footer .social a{
+         font-size: 1.6rem;
+    
+     }
+     
+
+
+
+
+
+}

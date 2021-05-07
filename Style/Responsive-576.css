@@ -27,6 +27,18 @@
     animation: slidInFromBottom 1s ease-in;
 
 }  
+/* ------------------------ Tip ---------------------------- */
+
+.img-learning{
+    width: 24rem;
+}
+.tip .grid-tip{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+}
 .courses-grid{    
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
